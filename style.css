@@ -105,18 +105,25 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
+.about-col-2 p{
+    text-align: justify;
+}
+
 .sub-title{
     font-size: 60px;
     font-weight: 600;
     color: white;
+    margin: 10px;
 }
 
 .tab-titles{
     display: flex;
     margin: 20px 0 40p;
+    padding-top: 20px;
 }
 
 .tab-links{
+    margin-bottom: 10px;
     margin-right: 50px;
     font-size: 18px;
     font-weight: 500;
@@ -150,7 +157,7 @@ nav ul li a:hover::after{
 
 .tab-contents ul li span{
     color: #b54769;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .tab-contents{
@@ -165,6 +172,7 @@ nav ul li a:hover::after{
 /* ---------------Services-------------- */
 #services{
     padding: 30px 0;
+    text-align: center;
 }
 
 .services-list{
