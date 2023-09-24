@@ -41,17 +41,15 @@
                 <div class="about-col-2">
                     <!-- add title -->
                     <h1 class="sub-title">About me</h1>
-                    <p>Hello, I'm Ayush Jain, a frontend developer, 3D artist, UI/UX designer, and graphic designer with a versatile skill set.
-                        With a deep understanding of both the technical intricacies of game development and the creative nuances of 3D art and graphic design, 
-                        I bring a holistic approach that fosters innovation and ensures the seamless integration of aesthetics and functionality in every project.</p>
-
+                    <p id="desc"></p>
+    
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
-
-
+    
+    
                     <!-- -----------Skills     Replace it with yor own content---------- -->
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
@@ -60,7 +58,7 @@
                             <li><span>UI/UX</span> <br>Designer Web/App interface</li>
                         </ul>
                     </div>
-
+    
                     <!-- --------------Experience      Replace it with yor own content------------ -->
                     <div class="tab-contents" id="experience">
                         <ul>
@@ -69,7 +67,7 @@
                             <li><span>UI/UX</span> <br>Designer Web/App interface</li>
                         </ul>
                     </div>
-
+    
                     <!-- -----------------Education     Replace it with yor own content---------------- -->
                     <div class="tab-contents" id="education">
                         <ul>
@@ -78,7 +76,7 @@
                             <li><span>10th</span> <br>St. George's College, Agra</li>
                         </ul>
                     </div>
-
+    
                 </div>
             </div>
         </div>
@@ -247,41 +245,6 @@
 
 
     <!-- ------------Script-------------  -->
-
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-
-    </script>
-
-    <script>
-
-        var sidemenu = document.getElementById("sidemenu");
-
-        function openmenu(){
-            sidemenu.style.right = "0";
-        }
-
-        function closemenu(){
-            sidemenu.style.right = "-200px";
-        }
-
-    </script>
-
-    <!-- ------ google sheet connect------  -->
 
     <script src="script.js"></script>
 
