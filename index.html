@@ -8,6 +8,8 @@
     <script src="https://kit.fontawesome.com/fb7cc2ebd8.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!-- ---------------header--------------  -->
     <div id="header">
         <div class="container">
             <nav>
@@ -24,11 +26,12 @@
             </nav>
 
             <div class="header-text">
-                <p>Developer</p>
-                <h1>Hi, I'm <span>Ayush</span> <br>Jain from India</h1>
+                <p id="title"></p>
+                <h1>Hi, I'm <span id="firstName"></span><br><span id="lastName"></span> from <span id="country"></span></h1>
             </div>
         </div>
     </div>
+
 
     <!-- -----about------ -->
     <div id="about">
@@ -36,8 +39,9 @@
             <div class="row">
                 <div class="about-col-1">
                     <!-- add user photo -->
-                    <img src="images/user.png">
+                    <img id="about-image">
                 </div>
+                
                 <div class="about-col-2">
                     <!-- add title -->
                     <h1 class="sub-title">About me</h1>
@@ -245,6 +249,24 @@
 
 
     <!-- ------------Script-------------  -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
 
     <script src="script.js"></script>
 
