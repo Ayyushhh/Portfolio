@@ -1,12 +1,17 @@
 // Header Main Page Details
 
 const userData = {
-        title: "Developer",
-        firstName: "Ayush",
-        lastName: "Jain",
-        country: "India",
-        aboutImage: "images/user.png"
+    logoImage: "images/logo.png",
+    title: "Developer",
+    firstName: "Ayush",
+    lastName: "Jain",
+    country: "India",
+    aboutImage: "images/user.png"
 };
+
+const logoPhoto = document.getElementById('logo-image');
+logoPhoto.src = userData.logoImage;
+
 
 const headerIdData = ['title', 'firstName', 'lastName', 'country'];
 
@@ -19,11 +24,17 @@ headerIdData.forEach(elementId => {
 
 // About me Details 
 
-let desc = "Hello, I'm Ayush Jain, a frontend developer, 3D artist, UI/UX designer, and graphic designer with a versatile skill set. With a deep understanding of both the technical intricacies of game development and the creative nuances of 3D art and graphic design, I bring a holistic approach that fosters innovation and ensures the seamless integration of aesthetics and functionality in every project.";
+const desc = `Hello! I'm ${userData.firstName} ${userData.lastName}, a multi-talented creative with a passion for turning ideas into captivating visual experiences. With a diverse skill set that includes 3D artistry, graphic design, front-end development, and UI/UX design, I thrive on bringing innovation and aesthetics together.
+<p><br>I believe in the power of creative collaboration and am always excited to take on new challenges. Whether it's building an interactive website, designing eye-catching graphics, or bringing innovative ideas to life in 3D, I'm dedicated to delivering work that stands out.
+</p><br><p>I'm eager to connect, collaborate, and bring your creative visions to life. Let's make something amazing together!</p>`;
 document.getElementById("desc").innerHTML = desc;
+
 
 const userPhoto = document.getElementById('about-image');
 userPhoto.src = userData.aboutImage;
+
+
+
 
 
 
