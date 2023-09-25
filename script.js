@@ -21,7 +21,13 @@ headerIdData.forEach(elementId => {
 });
 
 
+
+
+
+
+
 // new
+
 
 var sidemenu = document.getElementById("sidemenu");
 function openmenu(){
