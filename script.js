@@ -20,8 +20,27 @@ headerIdData.forEach(elementId => {
     element.innerHTML = userData[elementId];
 });
 
+// -------------------- porfolio ------------- 
 
+const portfolioData =[
+    {
+        image: "",
+        heading: "",
+        description: ""
+    },
+    {
+        image: "",
+        heading: "",
+        description: ""
+    },
+    {
+        image: "",
+        heading: "",
+        description: ""
+    }
+];
 
+const porfolioBox = document.getElementsByClassName
 
 
 

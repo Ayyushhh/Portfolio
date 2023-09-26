@@ -22,6 +22,7 @@
 
 .about-col-2{
     flex-basis: 60%;
+    position: inherit;
 }
 
 .about-col-2 p{
