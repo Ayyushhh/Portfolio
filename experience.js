@@ -2,6 +2,11 @@
 
 const experData = [
     {
+        post:"3D Artist",
+        companyname : "Astarix",
+        time : "10/2023 - Present"
+    },
+    {
         post:"Developer",
         companyname : "Tecnod8",
         time : "09/2023 - Present"
