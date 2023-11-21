@@ -2,7 +2,7 @@
 
 const userData = {
     logoImage: "images/logo.png",
-    title: "Designer",
+    title: "",
     firstName: "Ayush",
     lastName: "Jain",
     country: "India",
