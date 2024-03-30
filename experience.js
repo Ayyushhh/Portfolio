@@ -2,24 +2,24 @@
 
 const experData = [
     {
-        post:"3D Artist",
-        companyname : "Astarix",
-        time : "10/2023 - Present"
-    },
-    {
         post:"Developer",
         companyname : "Tecnod8",
         time : "09/2023 - Present"
     },
     {
+        post:"Graphic Designer",
+        companyname : "Sshark Aum Llp",
+        time : "12/2022 - 12/2023"
+    },
+    {
+        post:"3D Artist",
+        companyname : "Astarix",
+        time : "10/2023 - 12/2023"
+    },
+    {
         post:"3D Artist",
         companyname : "TechXR Innovations Private Limited",
         time : "05/2023 - 06/2023"
-    },
-    {
-        post:"Graphic Designer",
-        companyname : "Sshark Aum Llp",
-        time : "12/2022 - 08/2023"
     },
     {
         post:"3D Artist",
